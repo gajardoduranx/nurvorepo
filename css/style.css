@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+/* RUBIK: 400, 500, 600, 700 */
+
+/* ESTILOS GENERALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #232323;
+}
+h1,h2,h3 {
+    color: #000;
+}
+h1 {
+    font-weight: 700;
+    font-size: 2.3em;
+}
+h2 {
+    font-weight: 600;
+    font-size: 1.8em;
+}
+h3 {
+    font-weight: 500;
+    font-size: 1.4em;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+header, main, section, nav {
+    display: block;
+}
+main {
+    background-color: #e2e1e1;
+}
+footer {
+    background-color: #232323;
+}
+
+/* Estilos de los HEADER de cada pagina */
+
+header {
+    background: linear-gradient(to left, rgba(150, 150, 150, 0.4), rgba(60, 60, 60, .4)), url(../assets/img1.avif);
+    background-position: center;
+    background-size: cover;
+    height: 55vh;
+}
+header.html {
+    background: linear-gradient(to left, rgba(150, 150, 150, 0.4), rgba(60, 60, 60, .4)), url(../assets/img2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header.products {
+    background: linear-gradient(to left, rgba(150, 150, 150, 0.4), rgba(60, 60, 60, .4)), url(../assets/img4.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header.contact {
+    background: linear-gradient(to left, rgba(150, 150, 150, 0.4), rgba(60, 60, 60, .4)), url(../assets/img5.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 20px 0;
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.header-nav .logo, .header-nav nav {
+    display: inline-block;
+}
+.header-nav .logo {
+    margin-right: 250px;
+}
+.header-nav nav {
+    margin-left: 300px;
+}
+.header-nav .logo a {
+    font-size: 25px;
+    font-weight: 600;
+    color: #e2850c;
+}
+.header-nav ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+.header-nav ul li a {
+    font-weight: 600;
+    color: #fff;
+}
+.header-nav ul li:hover a {
+    text-decoration: underline;
+    color: #e9e5e5;
+}
+.header-content h1 {
+    color: #fff;
+    text-shadow: 1px 1px #fff;
+    padding: 2px;
+    border: 2px solid ;
+    margin: 70px auto 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    width: 80%;
+}
+
+/* Estilos de la seccion principal (INDEX) */
+
+.container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0 30px;
+}
+.section article {
+    width: 45%;
+    height: 450px;
+    display: inline-block;
+    margin: 10px 22px;
+    padding: 10px;
+}
+.section article .img {
+    width: 80%;
+    height: 200px;
+    background-color: #232323;
+    margin: auto;
+}
+.section article .img img {
+    width: 100%;
+    vertical-align: middle;
+    height: 100%;
+}
+.section article h3 {
+    text-align: center;
+    margin: 18px;
+}
+.section article .btn {
+    background-color: #f18c08;
+    color: #e2e1e1;
+    padding: 5px;
+    border-radius: 7px;
+    position: relative;
+    left: 40%;
+    top: 20px;
+}
+.section a {
+    background-color: #000;
+    height: 340px;
+}
+
+/* Estilo de section de la página HTML y CSS*/
+
+.section article ul {
+    height: 100%;
+}
+.section article ul li {
+    font-size: 1.8em;
+    line-height: 2em;
+}
+.section article iframe {
+    width: 100%;
+}
+
+/* Estilos para la sección de la página PRODUCTS */
+
+.section.product div {
+    display: inline-block; 
+    margin: 30px 30px 80px;
+    width: 250px;
+    height: 250px;
+}
+.section.product div img {
+    width: 100%;
+}
+.section.product div h3 {
+    text-align: center;
+    margin: 24px 0;
+}
+
+
+/* Estilos para el formulario de CONTACT */
+
+.section form {
+    margin: 40px auto;
+    width: 60%;
+}
+.section form label, .section form input, .section form textarea  {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+    width: 100%;
+    line-height: 1.5em;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Estilos del FOOTER */
+
+.footer ul {
+    margin: auto;
+}
+.footer ul li {
+    display: inline-block;
+    margin: 30px 80px;
+}
+.footer ul li a {
+    color: #e2e1e1;
+}
